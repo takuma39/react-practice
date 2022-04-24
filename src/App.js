@@ -29,6 +29,7 @@ export const App = () => {
     <div className="wrap">
       <ColorfulMessage color="blue">color</ColorfulMessage>
       <button onClick={onClickCountUp}>count up</button>
+
       <button onClick={onClickSwitchShowText}>on/off</button>
       <p>{num}</p>
       {showText && <p>表示</p>}
